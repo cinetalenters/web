@@ -2573,4 +2573,33 @@ ul, ol {
    list-style: none;
 }
 
+.popover {
+        left: 10px !important;
+    }
 
+    .viewsLikesText{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-style: bold;
+        font-size: 12pt;
+    }
+
+    .socialShare{
+                    cursor: pointer;
+
+        size: 1em;
+         color:black; 
+    }
+    .socialShare:hover{
+            cursor: pointer;
+            cursor: hand;
+            color:orangered;
+            -webkit-transform: scale(2.4);
+    }
+    .socialShareChangeColor:hover{
+            color:red; 
+            cursor: hand;
+            cursor: pointer;
+            -webkit-transform: scale(1.2);
+
+    }
